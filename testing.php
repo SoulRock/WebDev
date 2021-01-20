@@ -1,4 +1,4 @@
-<html>
+<html>>
 <head>
 <link rel="stylesheet" style="text/css" href="register.css">
 </head>
