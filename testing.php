@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylesheet" style="text/css" href="register.css">
+<link rel="stylesheet" style="text/css" href="designer.css">
 </head>
 <body>
 <div class="transparencyborder">

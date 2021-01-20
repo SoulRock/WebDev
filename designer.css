@@ -1,0 +1,108 @@
+body{
+margin:0;
+padding:0;
+background: url(mountain.jpg);
+background-size:cover;
+background-position:center;
+font-family:verdana, sans-serif;
+}
+
+.round{
+	border: 2px solid;
+	border-radius:25px;
+	border-color:#1DA1F2;
+	padding:10px;
+	cellspacing:10px;
+	background:transparent;
+	color:#ffff;
+	outline:none;
+
+}
+
+.round:hover{
+	cursor:pointer;
+	border-color:white;
+
+}
+.round:focus{
+	cursor:pointer;
+	border-color:#1DA1F2;
+	color:black;
+	background:white;
+}
+
+.roundtwo{
+	width:120px;
+	align:center;
+	border: 2px solid;
+	border-radius:25px;
+	border-color:#1DA1F2;
+	padding:10px;
+	cellspacing:10px;
+	background:#1DA1F2;
+	color:#ffff;
+	outline:none;
+}
+
+.roundtwo::before{
+background: #ff7675;
+content: "";
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index=-1;
+transition: all 0.6s ease;
+
+}
+
+.roundtwo:hover::before{
+	/* cursor:pointer; */
+	/* background:white; */
+	/* border-color:white; */
+	/* border-color:#1DA1F2; */
+	/* color:black; */
+	width: 100%;
+}
+
+.design{
+	width:320px;
+	height: 450px;
+	color:#ffff;
+	top:15%;
+	left:40%;
+	position:absolute;
+
+	border-radius:25px;
+	box-sizing: border-box;
+
+}
+
+h1{
+	margin:0;
+	padding:0 0 20px;
+	font-family: verdana, sans-serif;
+
+}
+
+td{
+	color:white;
+}
+
+.transparencyborder{
+	width:320px;
+	height: 400px;
+	color:#ffff;
+	top:10%;
+	left:40%;
+	position:absolute;
+	opacity:60%;
+	background:black;
+	border-radius:25px;
+	box-sizing: border-box;
+}
+
+::placeholder{
+	color:white;
+	opacity:50%;
+}
